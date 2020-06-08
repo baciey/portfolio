@@ -1,0 +1,71 @@
+.containerHome {
+
+}
+
+.main {
+    text-align: center;
+    color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+    
+  }
+  
+    .title {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 35px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  
+    .title span {
+      display: block;
+      font-size: 16px;
+      font-weight: normal;
+    }
+
+    .bgc {
+      position: relative;
+      overflow: hidden;
+      height: 100%;
+      left: 0;
+    }
+    
+    .bgc img {
+      position: absolute;
+      top: 50%;
+      left: -100px;
+      transform: translate(-50%, -50%);
+      min-width: 100%;
+      min-height: 100%;
+      opacity: 0.4;
+    filter: grayscale(100%);
+    }
+
+    .pPrawy .icons {
+      display: flex;
+      position: absolute;
+      top: 60%;
+    }
+    @media (min-width: 500px) {
+      .bgc img {
+        left: 20%;
+      }
+    }
+    @media (min-width: 800px) {
+      .bgc img {
+        left: 50%;
+      }
+    }
+
+    @media (min-width: 1025px) {
+      .title {
+        left: 50%;
+      }
+      .pPrawy .icons {
+        display: none;
+        
+      }
+    }
