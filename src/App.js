@@ -29,7 +29,7 @@ class App extends Component {
       </div>
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
         <>
           <div className="container">
             <div className="pPrawy">
