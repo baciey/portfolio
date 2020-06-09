@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4f3f04ba9fd02e9f182c",
+    "revision": "48c28ead1a3e54c5e2d3",
     "url": "/baciey/portfolio/static/css/main.f0a5b75f.chunk.css"
   },
   {
-    "revision": "4f3f04ba9fd02e9f182c",
-    "url": "/baciey/portfolio/static/js/main.06e66f96.chunk.js"
+    "revision": "48c28ead1a3e54c5e2d3",
+    "url": "/baciey/portfolio/static/js/main.4df2316d.chunk.js"
   },
   {
     "revision": "e671f1af3cbc40332776",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/baciey/portfolio/static/media/mountain.d3255c17.jpg"
   },
   {
-    "revision": "eaa1a19bc9d45faa4184a3682157170b",
+    "revision": "790bf16c8904498fc0850f64f5878011",
     "url": "/baciey/portfolio/index.html"
   }
 ];
