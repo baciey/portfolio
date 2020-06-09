@@ -1,0 +1,22 @@
+{
+    "rank": [
+        {
+            "id": 0,
+            "name": "Maciek",
+            "time": {
+                "min": 1,
+                "sek": 23,
+                "ms": 9
+            }
+        },
+        {
+            "id": 1,
+            "name": "Sara",
+            "time": {
+                "min": 0,
+                "sek": 43,
+                "ms": 12
+            }
+        }
+    ]
+}
