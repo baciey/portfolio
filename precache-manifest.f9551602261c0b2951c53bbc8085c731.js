@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "03b709a61d82116c483d",
+    "revision": "1697302f2771145bc438",
     "url": "/portfolio/static/css/main.54b69e07.chunk.css"
   },
   {
-    "revision": "03b709a61d82116c483d",
-    "url": "/portfolio/static/js/main.706e0ea1.chunk.js"
+    "revision": "1697302f2771145bc438",
+    "url": "/portfolio/static/js/main.040ddd5d.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "0f928e5b1970b207d04c",
-    "url": "/portfolio/static/js/2.00523d29.chunk.js"
+    "revision": "4afc005bb68c81f17c15",
+    "url": "/portfolio/static/js/2.66b51635.chunk.js"
   },
   {
     "revision": "ad8c07821a70115026bd1370199eb190",
@@ -48,6 +48,14 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/hangman2.267c236d.png"
   },
   {
+    "revision": "1ed8e514425a1fbff5b02fe31118764a",
+    "url": "/portfolio/static/media/burgerownia.1ed8e514.png"
+  },
+  {
+    "revision": "f06ce508244f3f1459fc3772b13a75ac",
+    "url": "/portfolio/static/media/burgerownia2.f06ce508.png"
+  },
+  {
     "revision": "06633ef772c8541bd15be41728f6d858",
     "url": "/portfolio/static/media/monitor.06633ef7.png"
   },
@@ -56,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mountain.d3255c17.jpg"
   },
   {
-    "revision": "41c896248a2e2dca95c6f8691ffb9363",
+    "revision": "55a95f91a497f3759b12b3a2fe9f384f",
     "url": "/portfolio/index.html"
   }
 ];
