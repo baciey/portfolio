@@ -4,17 +4,25 @@ import DietaCud from './img/dietaCud.png'
 import DietaCud2 from './img/dietaCud2.png'
 import DbzMemory from './img/dbzMemory.png'
 import DbzMemory2 from './img/dbzMemory2.png'
+import ListaToDo from './img/listaToDo.png'
+import ListaToDo2 from './img/listaToDo2.png'
+import Hangman from './img/hangman.png'
+import Hangman2 from './img/hangman2.png'
+import burgerownia from './img/burgerownia.png'
+import burgerownia2 from './img/burgerownia2.png'
 import Monitor from './img/monitor.png'
-
+import Image from './Image'
+// import { LazyImage } from "react-lazy-images";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDatabase, faForward } from '@fortawesome/free-solid-svg-icons'
-import { faReact, faJs, faHtml5, faCss3Alt, faPhp } from "@fortawesome/free-brands-svg-icons"
+import { faReact, faJs, faHtml5, faCss3Alt, faPhp, faSass } from "@fortawesome/free-brands-svg-icons"
 
 
 
 class Projekty extends Component {
   state = {
     nr: 0,
+    imgLoaded: false,
   }
 
   react = {
@@ -47,6 +55,11 @@ class Projekty extends Component {
     img: faDatabase,
     color: 'lightgrey',
   }
+  sass = {
+    name: 'Sass',
+    img: faSass,
+    color: '#CD6799',
+  }
 
   projects = [
     {
@@ -64,10 +77,34 @@ class Projekty extends Component {
       techs: [this.js, this.html, this.css, this.php, this.sql],
       link: 'https://dietacud.000webhostapp.com/',
       gitLink: 'https://github.com/baciey/dietaCud',
+    },
+    {
+      title: '3. Lista "to-do" ',
+      img1: ListaToDo,
+      img2: ListaToDo2,
+      techs: [this.react, this.js, this.html, this.css, this.sass],
+      link: 'https://baciey.github.io/toDoList/',
+      gitLink: 'https://github.com/baciey/toDoList',
+    },
+    {
+      title: '4. Gra w szubienicę ',
+      img1: Hangman,
+      img2: Hangman2,
+      techs: [this.react, this.js, this.html, this.css, this.sass],
+      link: 'https://baciey.github.io/hangman/',
+      gitLink: 'https://github.com/baciey/hangman',
+    },
+    {
+      title: '5. Restauracja - Burgerownia ',
+      img1: burgerownia,
+      img2: burgerownia2,
+      techs: [this.react, this.js, this.html, this.css, this.sass],
+      link: 'https://baciey.github.io/burgerownia/',
+      gitLink: 'https://github.com/baciey/burgerownia',
     }
   ]
   projectChange = () => {
-    if (this.state.nr === 1) {
+    if (this.state.nr === this.projects.length - 1) {
       this.setState({
         nr: 0,
       })
@@ -77,7 +114,9 @@ class Projekty extends Component {
       nr: this.state.nr + 1
     })
   }
-
+  imgLoaded = () => {
+    this.setState({ imgLoaded: true })
+  }
   render() {
     const { nr } = this.state
     const techs = this.projects[nr].techs.map(tech =>
@@ -95,13 +134,13 @@ class Projekty extends Component {
         <p>{this.projects[nr].title}</p>
         <div className="mainProjekty">
           <div className="monitor">
-            <img src={Monitor} alt="" />
-            <img className="screenShot "
-              src={this.projects[nr].img1}
-              alt="" />
-            <img className="screenShot fadeOutfadeIn"
-              src={this.projects[nr].img2}
-              alt="" />
+            <Image
+              nr={nr}
+              monitor={Monitor}
+              projects={this.projects}
+              imgLoaded={this.imgLoaded}
+              isImgLoaded={this.state.imgLoaded}
+            />
           </div>
         </div>
         <div className="techs">

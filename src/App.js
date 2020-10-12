@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './css/app.css'
-import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faIdCard, faEnvelope, faPhone, faMapMarkerAlt, faUser } from '@fortawesome/free-solid-svg-icons'
