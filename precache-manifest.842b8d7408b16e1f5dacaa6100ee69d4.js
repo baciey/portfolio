@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1697302f2771145bc438",
+    "revision": "e1e25e5323dc75901f6d",
     "url": "/portfolio/static/css/main.54b69e07.chunk.css"
   },
   {
-    "revision": "1697302f2771145bc438",
-    "url": "/portfolio/static/js/main.040ddd5d.chunk.js"
+    "revision": "e1e25e5323dc75901f6d",
+    "url": "/portfolio/static/js/main.1e484d3b.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/dbzMemory2.3cadcbd7.png"
   },
   {
-    "revision": "995dd2d8ab60f9e1475f13e56b4fffca",
-    "url": "/portfolio/static/media/listaToDo.995dd2d8.png"
+    "revision": "10136852f4e505e466fc003e3ee8b5eb",
+    "url": "/portfolio/static/media/listaToDo.10136852.png"
   },
   {
-    "revision": "55789d11dbd7905dac789e8d73649094",
-    "url": "/portfolio/static/media/listaToDo2.55789d11.png"
+    "revision": "e0eb7ce3203aff17badf56a1f50a2663",
+    "url": "/portfolio/static/media/listaToDo2.e0eb7ce3.png"
   },
   {
     "revision": "2ae15a2711efa97e83508dd2d0da1aae",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mountain.d3255c17.jpg"
   },
   {
-    "revision": "55a95f91a497f3759b12b3a2fe9f384f",
+    "revision": "12433f6ac4c00c5304b228047b2b467b",
     "url": "/portfolio/index.html"
   }
 ];
