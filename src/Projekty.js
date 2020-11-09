@@ -67,7 +67,7 @@ class Projekty extends Component {
       img1: DbzMemory,
       img2: DbzMemory2,
       techs: [this.react, this.js, this.html, this.css],
-      link: 'https://dbzmemorygame.000webhostapp.com/',
+      link: 'https://dbzmemory.000webhostapp.com/',
       gitLink: 'https://github.com/baciey/dbzMemoryGame',
     },
     {
